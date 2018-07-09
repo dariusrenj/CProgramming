@@ -7,5 +7,3 @@ This is a test
 *Italics*
 
 **\* Bold with asterisk**
-
-Test
