@@ -1,4 +1,4 @@
-/*  lab_3B.c
+/*  Name: lab_3B.c
     Author: Zackery Vering
     Date: 11 July 2018
 */
