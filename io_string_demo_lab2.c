@@ -8,7 +8,7 @@
 int main(void)
 {
     //initialize variable
-    char buff[4];
+    char buff[100];
     printf("Enter string: ");
     //assign user defined value
     fgets(buff, sizeof(buff), stdin);
