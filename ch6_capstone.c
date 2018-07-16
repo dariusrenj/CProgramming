@@ -11,9 +11,9 @@ Date: 16 July 2018
 
 int main(void)
 {
-	uint16_t someNumber = 5192;
-    uint16_t inputMask = 0;
-    uint16_t placeHolder = 0;
+	uint32_t someNumber = 5192;
+    uint32_t inputMask = 0;
+    uint32_t placeHolder = 0;
     printf("\nWe are going to flip a bit on %d\n", someNumber);
 	printf("Select which bit to flip. Choices are 0-%d:  ", (sizeof(someNumber)*8)-1);
 	scanf("%u", &inputMask);
