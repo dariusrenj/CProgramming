@@ -14,6 +14,11 @@ int main(void)
 
     printf("\nEnter a date in MM-DD-YYYY format.\n");
     scanf("%2d%*c%2d%*c%4d", &month, &day, &year);
+    if(month>12)
+    {
+        printf("\nEnter a valid month. That means 01-12 since there's only 12 months in a year.\n");
+        scanf("%2d", &month);
+    }
     printf("Your date was: %02d/%02d/%04d\n", month, day, year);
 
     return 0;

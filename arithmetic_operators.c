@@ -31,6 +31,6 @@ printf("%d\n", y*5);
 x = 2; y = 6;
 printf("%d\n", x==y);
 x = 9; y = 3;
-printf("%d\n", (x /= y)==(y *= y));
+printf("%d\n", (x /= y)==(y *= y));  //This one isn't really better. Just different.
 	return 0;
 }

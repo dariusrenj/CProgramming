@@ -24,7 +24,7 @@ int main(void)
 
 	else
 	{
-		printf("You failed to enter a positive integer. \nGAME OVER!\n");
+		printf("You failed to enter a positive number. \nGAME OVER!\n");
 	}
 	return 0;
 }
