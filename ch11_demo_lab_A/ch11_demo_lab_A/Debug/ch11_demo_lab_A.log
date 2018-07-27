@@ -1,0 +1,8 @@
+﻿  ch11_demo_lab_A.c
+c:\users\dotlaptop\source\repos\ch11_demo_lab_a\ch11_demo_lab_a\ch11_demo_lab_a.c(43): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+  c:\users\dotlaptop\source\repos\ch11_demo_lab_a\ch11_demo_lab_a\ch11_demo_lab_a.c(43): note: consider using '%lld' in the format string
+  c:\users\dotlaptop\source\repos\ch11_demo_lab_a\ch11_demo_lab_a\ch11_demo_lab_a.c(43): note: consider using '%I64d' in the format string
+c:\users\dotlaptop\source\repos\ch11_demo_lab_a\ch11_demo_lab_a\ch11_demo_lab_a.c(43): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type '__int64'
+  c:\users\dotlaptop\source\repos\ch11_demo_lab_a\ch11_demo_lab_a\ch11_demo_lab_a.c(43): note: consider using '%lld' in the format string
+  c:\users\dotlaptop\source\repos\ch11_demo_lab_a\ch11_demo_lab_a\ch11_demo_lab_a.c(43): note: consider using '%I64d' in the format string
+  ch11_demo_lab_A.vcxproj -> C:\Users\DOTlaptop\source\repos\ch11_demo_lab_A\Debug\ch11_demo_lab_A.exe

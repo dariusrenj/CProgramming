@@ -1,0 +1,5 @@
+﻿  ch11_PLA.c
+c:\users\dotlaptop\source\repos\ch11_pla\ch11_pla\ch11_pla.c(31): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int **'
+c:\users\dotlaptop\source\repos\ch11_pla\ch11_pla\ch11_pla.c(32): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int **'
+c:\users\dotlaptop\source\repos\ch11_pla\ch11_pla\ch11_pla.c(33): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+  ch11_PLA.vcxproj -> C:\Users\DOTlaptop\source\repos\ch11_PLA\Debug\ch11_PLA.exe
