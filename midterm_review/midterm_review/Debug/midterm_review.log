@@ -1,0 +1,5 @@
+﻿  UnitTestCodev2.c
+c:\users\dotlaptop\source\repos\midterm_review\midterm_review\englishfunctions.h(116): warning C4018: '>=': signed/unsigned mismatch
+c:\users\dotlaptop\source\repos\midterm_review\midterm_review\unittestcodev2.c(268): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+c:\users\dotlaptop\source\repos\midterm_review\midterm_review\unittestcodev2.c(605): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+  midterm_review.vcxproj -> C:\Users\DOTlaptop\source\repos\midterm_review\Debug\midterm_review.exe

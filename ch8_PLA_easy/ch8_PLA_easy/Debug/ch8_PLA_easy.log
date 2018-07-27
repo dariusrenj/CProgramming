@@ -1,0 +1,4 @@
+﻿  ch8_PLA_easy.c
+c:\users\dotlaptop\source\repos\ch8_pla_easy\ch8_pla_easy\ch8_pla_easy.c(107): warning C4018: '<': signed/unsigned mismatch
+c:\users\dotlaptop\source\repos\ch8_pla_easy\ch8_pla_easy\ch8_pla_easy.c(138): warning C4716: 'clearInput': must return a value
+  ch8_PLA_easy.vcxproj -> C:\Users\DOTlaptop\source\repos\ch8_PLA_easy\Debug\ch8_PLA_easy.exe
