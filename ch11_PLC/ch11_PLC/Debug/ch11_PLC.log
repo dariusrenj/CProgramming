@@ -1,0 +1,3 @@
+﻿  ch11_PLC.c
+c:\users\dotlaptop\source\repos\ch11_plc\ch11_plc\ch11_plc.c(296): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+  ch11_PLC.vcxproj -> C:\Users\DOTlaptop\source\repos\ch11_PLC\Debug\ch11_PLC.exe

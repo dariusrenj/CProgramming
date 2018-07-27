@@ -1,0 +1,3 @@
+﻿  ch7_PLD.c
+c:\users\dotlaptop\source\repos\ch7_pld\ch7_pld\ch7_pld.c(17): warning C4047: 'initializing': 'char' differs in levels of indirection from 'char [2]'
+  Ch7_PLD.vcxproj -> C:\Users\DOTlaptop\source\repos\Ch7_PLD\Debug\Ch7_PLD.exe
