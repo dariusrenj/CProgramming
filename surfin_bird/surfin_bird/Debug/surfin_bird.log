@@ -1,0 +1,3 @@
+﻿  surfin_bird.c
+c:\users\dotlaptop\source\repos\surfin_bird\surfin_bird\surfin_bird.c(296): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+  surfin_bird.vcxproj -> C:\Users\DOTlaptop\source\repos\surfin_bird\Debug\surfin_bird.exe
