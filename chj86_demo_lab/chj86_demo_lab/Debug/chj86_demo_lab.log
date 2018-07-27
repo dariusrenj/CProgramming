@@ -1,0 +1,5 @@
+﻿  ch86_demo_lab.c
+c:\users\dotlaptop\source\repos\chj86_demo_lab\chj86_demo_lab\ch86_demo_lab.c(75): warning C4013: 'strerror' undefined; assuming extern returning int
+c:\users\dotlaptop\source\repos\chj86_demo_lab\chj86_demo_lab\ch86_demo_lab.c(75): warning C4047: 'function': 'const char *' differs in levels of indirection from 'int'
+c:\users\dotlaptop\source\repos\chj86_demo_lab\chj86_demo_lab\ch86_demo_lab.c(75): warning C4024: 'perror': different types for formal and actual parameter 1
+  chj86_demo_lab.vcxproj -> C:\Users\DOTlaptop\source\repos\chj86_demo_lab\Debug\chj86_demo_lab.exe
