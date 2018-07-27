@@ -1,0 +1,3 @@
+﻿  ch73_PLA.c
+c:\users\dotlaptop\source\repos\ch73_pla\ch73_pla\ch73_pla.c(55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  ch73_PLA.vcxproj -> C:\Users\DOTlaptop\source\repos\ch73_PLA\Debug\ch73_PLA.exe
