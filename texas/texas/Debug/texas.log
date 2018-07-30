@@ -1,0 +1,22 @@
+﻿  texas.c
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(162): warning C4047: '=': 'int *' differs in levels of indirection from 'int (__cdecl *)(int,int)'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(163): warning C4047: 'function': 'int (__cdecl *)(int,int)' differs in levels of indirection from 'int *'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(163): warning C4024: 'bubble_sort': different types for formal and actual parameter 3
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(175): warning C4047: 'function': 'int (__cdecl *)(int,int)' differs in levels of indirection from 'int *'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(175): warning C4024: 'bubble_sort': different types for formal and actual parameter 3
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(188): warning C4047: '=': 'int *' differs in levels of indirection from 'int (__cdecl *)(int,int)'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(189): warning C4047: 'function': 'int (__cdecl *)(int,int)' differs in levels of indirection from 'int *'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(189): warning C4024: 'bubble_sort': different types for formal and actual parameter 3
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(201): warning C4047: 'function': 'int (__cdecl *)(int,int)' differs in levels of indirection from 'int *'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(201): warning C4024: 'bubble_sort': different types for formal and actual parameter 3
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(214): warning C4047: '=': 'int *' differs in levels of indirection from 'int (__cdecl *)(int,int)'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(215): warning C4047: 'function': 'int (__cdecl *)(int,int)' differs in levels of indirection from 'int *'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(215): warning C4024: 'bubble_sort': different types for formal and actual parameter 3
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(227): warning C4047: 'function': 'int (__cdecl *)(int,int)' differs in levels of indirection from 'int *'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(227): warning C4024: 'bubble_sort': different types for formal and actual parameter 3
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(240): warning C4047: '=': 'int *' differs in levels of indirection from 'int (__cdecl *)(int,int)'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(241): warning C4047: 'function': 'int (__cdecl *)(int,int)' differs in levels of indirection from 'int *'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(241): warning C4024: 'bubble_sort': different types for formal and actual parameter 3
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(253): warning C4047: 'function': 'int (__cdecl *)(int,int)' differs in levels of indirection from 'int *'
+c:\users\dotlaptop\source\repos\texas\texas\texas.c(253): warning C4024: 'bubble_sort': different types for formal and actual parameter 3
+  texas.vcxproj -> C:\Users\DOTlaptop\source\repos\texas\Debug\texas.exe
