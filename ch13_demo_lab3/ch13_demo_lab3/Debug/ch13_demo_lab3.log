@@ -1,0 +1,6 @@
+﻿  ch13_demo_lab3.c
+c:\users\dotlaptop\source\repos\ch13_demo_lab3\ch13_demo_lab3\ch13_demo_lab3.c(106): warning C4010: single-line comment contains line-continuation character
+c:\users\dotlaptop\source\repos\ch13_demo_lab3\ch13_demo_lab3\ch13_demo_lab3.c(107): warning C4010: single-line comment contains line-continuation character
+c:\users\dotlaptop\source\repos\ch13_demo_lab3\ch13_demo_lab3\ch13_demo_lab3.c(108): warning C4010: single-line comment contains line-continuation character
+c:\users\dotlaptop\source\repos\ch13_demo_lab3\ch13_demo_lab3\ch13_demo_lab3.c(115): warning C4010: single-line comment contains line-continuation character
+  ch13_demo_lab3.vcxproj -> C:\Users\DOTlaptop\source\repos\ch13_demo_lab3\Debug\ch13_demo_lab3.exe

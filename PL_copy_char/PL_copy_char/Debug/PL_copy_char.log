@@ -1,0 +1,4 @@
+﻿  PL_copy_char.c
+c:\users\dotlaptop\source\repos\cprogramming\pl_copy_char\pl_copy_char\pl_copy_char.c(15): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+c:\users\dotlaptop\source\repos\cprogramming\pl_copy_char\pl_copy_char\pl_copy_char.c(28): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+  PL_copy_char.vcxproj -> C:\Users\DOTlaptop\source\repos\CProgramming\PL_copy_char\Debug\PL_copy_char.exe

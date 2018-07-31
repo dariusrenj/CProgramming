@@ -1,0 +1,11 @@
+﻿  PL_Usernames.c
+c:\users\dotlaptop\source\repos\cprogramming\pl_usernames\pl_usernames\pl_usernames.c(32): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char **'
+c:\users\dotlaptop\source\repos\cprogramming\pl_usernames\pl_usernames\pl_usernames.c(32): warning C4024: 'strcpy': different types for formal and actual parameter 2
+c:\users\dotlaptop\source\repos\cprogramming\pl_usernames\pl_usernames\pl_usernames.c(33): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char **'
+c:\users\dotlaptop\source\repos\cprogramming\pl_usernames\pl_usernames\pl_usernames.c(33): warning C4024: 'strcat': different types for formal and actual parameter 2
+c:\users\dotlaptop\source\repos\cprogramming\pl_usernames\pl_usernames\pl_usernames.c(34): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char (*)[20]'
+c:\users\dotlaptop\source\repos\cprogramming\pl_usernames\pl_usernames\pl_usernames.c(34): warning C4024: 'strcat': different types for formal and actual parameter 2
+c:\users\dotlaptop\source\repos\cprogramming\pl_usernames\pl_usernames\pl_usernames.c(39): warning C4018: '<': signed/unsigned mismatch
+c:\users\dotlaptop\source\repos\cprogramming\pl_usernames\pl_usernames\pl_usernames.c(29): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+c:\users\dotlaptop\source\repos\cprogramming\pl_usernames\pl_usernames\pl_usernames.c(30): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+  PL_Usernames.vcxproj -> C:\Users\DOTlaptop\source\repos\CProgramming\PL_Usernames\Debug\PL_Usernames.exe
