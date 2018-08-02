@@ -1,0 +1,24 @@
+﻿  ch14_linked_lists.c
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\my_header.h(24): warning C4098: 'all_student_data': 'void' function returning a value
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\my_header.h(28): warning C4098: 'all_student_data': 'void' function returning a value
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\my_header.h(70): warning C4098: 'student_and_car': 'void' function returning a value
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\my_header.h(74): warning C4098: 'student_and_car': 'void' function returning a value
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\my_header.h(91): warning C4098: 'specific_student': 'void' function returning a value
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\my_header.h(97): warning C4098: 'specific_student': 'void' function returning a value
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\my_header.h(110): warning C4098: 'add_student': 'void' function returning a value
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\my_header.h(120): warning C4098: 'add_student': 'void' function returning a value
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(156): warning C4047: 'function': 'char' differs in levels of indirection from 'char [30]'
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(156): warning C4024: 'add_student': different types for formal and actual parameter 2
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(156): warning C4047: 'function': 'char' differs in levels of indirection from 'char [4]'
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(156): warning C4024: 'add_student': different types for formal and actual parameter 3
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(156): warning C4024: 'add_student': different types for formal and actual parameter 4
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(156): warning C4024: 'add_student': different types for formal and actual parameter 5
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(157): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(157): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(159): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(159): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(161): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(161): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(163): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\dotlaptop\source\repos\cprogramming\ch14_linked_lists\ch14_linked_lists\ch14_linked_lists.c(163): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  ch14_linked_lists.vcxproj -> C:\Users\DOTlaptop\source\repos\CProgramming\ch14_linked_lists\Debug\ch14_linked_lists.exe

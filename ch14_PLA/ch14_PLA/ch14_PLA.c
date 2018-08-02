@@ -4,39 +4,6 @@
 ///////////////////////////////////////////////// "Surfin' Bird" ////////////////////////////////////////////////////
 /////////////////////////////////////////////// Instructor Solution /////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// The students must define find_the_word() as specified below.
-// Do *NOT* change main() as it contains 56 tests created for find_the_word()
-// char * find_the_word(char * sentence_ptr, char * searchWord_ptr, int * errorCode_ptr)
-// Return Value
-//     char pointer to the first occurrence of searchWord in the null-terminated string found at sentence_ptr
-//     NULL for all other situations (e.g., sentence_ptr is NULL, searchWord_ptr is NULL, errorCode_ptr is NULL)
-// Parameters
-//     sentence_ptr - char pointer to a null-terminated string which represents the sentence to search
-//     searchWord_ptr - char pointer to a null-terminated string which represents the key to search for
-//     errorCode_ptr - int pointer which will store an error code provided by find_the_word (see below)
-// Purpose - Safely (e.g., watch for array overruns, mind the null-terminators) locate the memory address
-//     of the string found at searchWord_ptr within sentence_ptr
-// Requirements
-//     Only Address Arithmetic is permitted to access sentence_ptr and searchWord_ptr.  The test input utilizes
-//         methods other than address arithmetic but that is none of your concern.
-//     Assign your error code to the memory address found in errorCode_ptr.  The error codes are #defined as constant
-//         MACROS at the beginning of main() but are also listed here:
-//         DEFAULT_ERROR_CODE - This is a default value used in testing.  The error code variable is initialized
-//             with this value.  The error code variable is also reset to this value after each test.  The
-//             students will not need to return this code.  It is entirely restricted to testing and debugging.
-//         ERROR_CODE_SUCCESS - This is not an actual error.  Rather, it indicates your function has successfully
-//             completed.  Use this MACRO to indicate success.
-//         ERROR_NULL_SENTENCE_POINTER - This MACRO is to be used when sentence_ptr is NULL.  The return value of 
-//             the function will of course be NULL but the function also needs to store this MACRO in the memory 
-//             address stored in errorCode_ptr.
-//         ERROR_NULL_SEARCH_POINTER - This MACRO is to be used when searchWord_ptr is NULL.  The return value 
-//             of the function will of course be NULL but the function also needs to store this MACRO in the memory 
-//             address stored in errorCode_ptr.
-//         ERROR_SEARCH_NOT_FOUND - This MACRO is to be used when the string located at searchWord_ptr has not
-//             been found inside the string located at sentence_ptr.  The return value of the function will of
-//             course be NULL but the function also needs to store this MACRO in the memory address stored in
-//             errorCode_ptr.
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
 #include <string.h>
@@ -82,45 +49,7 @@
 #endif
 #define BUFF_SIZE 1024
 
-/*
-* FUNCTION:   find_the_word(char * sentence_ptr, char * searchWord_ptr, int * errorCode_ptr)
-*
-* ARGUMENTS:  sentence_ptr is a char pointer to a null-terminated string to search
-*             searchWord_ptr is a char pointer to a null-terminated string to find inside sentence_ptr
-*             errorCode_ptr is an int pointer.  Store your error code at this memory address.
-*
-* RETURNS:	   char pointer to the first occurrence of the searchWord_ptr string found in the
-*                 sentence_ptr string.  The char pointer should be a memory address in the
-*                 sentence_ptr string and this memory address should represent the first 'index'
-*                 of the searchWord_ptr string.  This memory address from the sentence_ptr string
-*                 should dereference to a value equivalent to searchWord_ptr[0].
-*             All other occurences should return NULL.  This includes, but is not limited to, the
-*                 following:
-*                     sentence_ptr is NULL
-*                     searchWord_ptr is NULL
-*                     errorCode_ptr is NULL
-*                     the searchWord_ptr string is not found in the sentence_ptr string
-*
-* NOTES:      This function only utilizes address arithmetic to access information within the
-*                 null-terminated char array found at both sentence_ptr and searchWord_ptr
-*             Only access elements of the char array found at both sentence_ptr and searchWord_ptr
-*                 using address arithmetic (AKA pointer math).  The definition of this function should
-*                 be entirely devoid of the [ and ] characters.  (e.g., sentence_ptr[i] is forbidden)
-*             The only guarantees for the arguments are:
-*                 Any string found at sentence_ptr is null-terminated
-*                 Any string found at searchWord_ptr is null-terminated
-*             There is no guarantee sentence_ptr has an address (return NULL if it's NULL and assign the
-*                 proper error code)
-*             There is no guarantee searchWord_ptr has an address (return NULL if it's NULL and assign the
-*                 proper error code)
-*             There is no guarantee errorCode_ptr has an address (return NULL if it's NULL and assign the
-*                 proper error code)
-*             There is no guarantee the string found at sentence_ptr contains the string found at
-*                 searchWord_ptr (return NULL if the string at searchWord_ptr is not found and assign the
-*                 proper error code)
-*             There is no guarantee the strings found at both sentence_ptr and searchWord_ptr will
-*                 return a string length longer than zero (0)
-*/
+
 char * find_the_word(char * sentence_ptr, char * searchWord_ptr, int * errorCode_ptr);
 
 //declare struct
@@ -192,13 +121,13 @@ int main(void)
 	char testKey25[] = { 0x2F, 0x0 };
 
 	//declare struct values
-	struct FunctionTest test0 = { testInput0, "\n", &testInput0+29, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test1 = { testInput1, "The", &testInput1+21, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test2 = { testInput2, "bird", &testInput2+33, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test3 = { testInput3, "is", &testInput3+2, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test4 = { testInput4, "the", &testInput4+10, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test5 = { testInput5, "word", &testInput5+13, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test6 = { testInput6, "!  ", &testInput6+40, &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test0 = { testInput0, "\n", (testInput0+29), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test1 = { testInput1, "The", (testInput1+21), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test2 = { testInput2, "bird", (testInput2+33), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test3 = { testInput3, "is", (testInput3+2), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test4 = { testInput4, "the", (testInput4+10), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test5 = { testInput5, "word", (testInput5+13), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test6 = { testInput6, "!  ", (testInput6+40), &putErrorCodeHere, ERROR_CODE_SUCCESS };
 	struct FunctionTest test7 = { testInput7, "Doesn't matter", testInput7, &putErrorCodeHere, ERROR_NULL_SENTENCE_POINTER };
 	struct FunctionTest test8 = { testInput8, "Don't bother", testInput8, &putErrorCodeHere, ERROR_NULL_SENTENCE_POINTER };
 	struct FunctionTest test9 = { testInput9, NULL, NULL, &putErrorCodeHere, ERROR_NULL_SEARCH_POINTER };
@@ -207,19 +136,19 @@ int main(void)
 	struct FunctionTest test12 = { testInput12, "e", NULL, NULL, DEFAULT_ERROR_CODE };
 	struct FunctionTest test13 = { testInput13, NULL, NULL, &putErrorCodeHere, ERROR_NULL_SEARCH_POINTER };
 	struct FunctionTest test14 = { testInput14, NULL, NULL, &putErrorCodeHere, ERROR_NULL_SEARCH_POINTER };
-	struct FunctionTest test15 = { testInput15, "come to the aid", &testInput15+36, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test16 = { testInput16, "play the game", &testInput16+23, &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test15 = { testInput15, "come to the aid", (testInput15+36), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test16 = { testInput16, "play the game", (testInput16+23), &putErrorCodeHere, ERROR_CODE_SUCCESS };
 	struct FunctionTest test17 = { testInput17, "\0", NULL, &putErrorCodeHere, ERROR_SEARCH_NOT_FOUND };
 	struct FunctionTest test18 = { testInput18, "Don't do it!", NULL, &putErrorCodeHere, ERROR_SEARCH_NOT_FOUND };
 	struct FunctionTest test19 = { testInput19, "long string as a search key", NULL, &putErrorCodeHere, ERROR_SEARCH_NOT_FOUND };
 	struct FunctionTest test20 = { testInput20, "partial", NULL, &putErrorCodeHere, ERROR_SEARCH_NOT_FOUND };
 	struct FunctionTest test21 = { testInput21, "\0", NULL, &putErrorCodeHere, ERROR_SEARCH_NOT_FOUND };
-	struct FunctionTest test22 = { testInput22, testKey22, &testInput22+7, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test23 = { testInput23, testKey23, &testInput23+2, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test24 = { testInput24, testKey24, &testInput24+17, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test25 = { testInput25, testKey25, &testInput25+5, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test26 = { testInput26, "Sometime", &testInput26+0, &putErrorCodeHere, ERROR_CODE_SUCCESS };
-	struct FunctionTest test27 = { testInput27, "look.", &testInput27+64, &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test22 = { testInput22, testKey22, (testInput22+7), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test23 = { testInput23, testKey23, (testInput23+2), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test24 = { testInput24, testKey24, (testInput24+17), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test25 = { testInput25, testKey25, (testInput25+5), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test26 = { testInput26, "Sometime", (testInput26+0), &putErrorCodeHere, ERROR_CODE_SUCCESS };
+	struct FunctionTest test27 = { testInput27, "look.", (testInput27+64), &putErrorCodeHere, ERROR_CODE_SUCCESS };
 
 	//declare struct array
 	struct FunctionTest testCases[] = { test0, test1, test2, test3, test4, test5, test6, test7, test8, test9, test10, test11, test12, test13, test14, \
@@ -237,7 +166,7 @@ int main(void)
 		printf("************\n");
 		printf("* TEST #%02d *\n", i);
 		printf("************\n");
-		tempReturnValue_ptr = find_the_word(testCases->sentence_ptr, (testCases+i)->searchWord_ptr, (testCases + i)->errorCode_ptr);
+		tempReturnValue_ptr = find_the_word((testCases+i)->sentence_ptr, (testCases+i)->searchWord_ptr, (testCases + i)->errorCode_ptr);
 
 		/* 1. TEST RETURN VALUE */
 		numTestsRun++;
